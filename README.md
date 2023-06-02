@@ -24,3 +24,16 @@ Before setting up the data pipeline, make sure you have the following:
   - Amazon S3
   - AWS Lambda
   - Amazon RDS (for the SQL database)
+
+
+
+## Usage
+
+To use the data pipeline, follow these steps:
+
+1. Upload a JSON file to the configured S3 bucket.
+
+2. Monitor the Lambda function logs to ensure the data processing is successful.
+
+3. Access your SQL database to verify that the data has been stored correctly.
+
